@@ -1,0 +1,37 @@
+Echo-Service
+############
+
+This project is an easy example for remote communication 
+with Akka 2.0.1.
+
+You need SBT 0.11.3.
+
+Quickstart:
+
+$sbt
+>update 
+>run
+
+Multiple main classes detected, select one to run:
+
+ [1] org.scoding.echo.EchoClientApp
+ [2] org.scoding.echo.EchoApp
+
+Enter number: 2
+
+$sbt 
+>run
+
+Multiple main classes detected, select one to run:
+
+ [1] org.scoding.echo.EchoClientApp
+ [2] org.scoding.echo.EchoApp
+
+Enter number: 1
+
+[info] Running org.scoding.echo.EchoClientApp 
+[INFO] [05/29/2012 22:10:53.422] [run-main] [ActorSystem(EchoClientApp)] 
+REMOTE: RemoteServerStarted@akka://EchoClientApp@127.0.0.1:2553
+Started Echo Client App
+Please insert a message: hi 
+
